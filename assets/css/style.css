@@ -12906,7 +12906,7 @@ figcaption {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: calc(100% - 130px);
+  height: calc(100%);
   content: "";
   left: 50%;
   bottom: 0;
@@ -14346,14 +14346,14 @@ div#featured-project-carousel {
   }
 }
 .rn-nav-list .nav-item {
-  flex-basis: 25%;
+  flex-basis: 50%;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-nav-list .nav-item {
-    flex-basis: 25%;
+    flex-basis: 50%;
   }
 }
 @media only screen and (max-width: 767px) {
